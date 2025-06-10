@@ -61,3 +61,5 @@ def delete_repo(repo_name: str):
         raise HTTPException(status_code=response.status_code, detail="Error al eliminar repositorio")
 
     return {"message": "Repositorio eliminado con éxito"}
+
+# Terminado ( me bailo sabroso el FastApi)
